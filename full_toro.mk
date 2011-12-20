@@ -24,7 +24,8 @@
 # Camera
 PRODUCT_PACKAGES := \
     Camera \
-    Gallery
+    Superuser \
+    ROMControl \
 
 #if we do this after the full_base_telephony is included some of these don't get picked up..
 PRODUCT_COPY_FILES += \
@@ -42,5 +43,14 @@ $(call inherit-product, device/samsung/toro/device.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_toro
 PRODUCT_DEVICE := toro
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full AOSP on Toro
+PRODUCT_BRAND := Google
+PRODUCT_MODEL := Galaxy Nexus
+PRODUCT_MANUFACTURER := Samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRODUCT_NAME=mysid \
+	BUILD_ID=IML74K \
+	BUILD_DISPLAY_ID=IML74K \
+	BUILD_FINGERPRINT="google/mysid/toro:4.0.2/ICL53F/235179:user/release-keys" \
+	PRIVATE_BUILD_DESC="mysid-user 4.0.2 ICL53F 235179 release-keys"
+
