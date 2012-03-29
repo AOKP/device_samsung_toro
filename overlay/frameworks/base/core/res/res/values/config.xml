@@ -90,4 +90,14 @@
         <item>5912</item>
         <item>8867</item>
     </integer-array>
+
+	<!-- List of file paths for USB host busses to exclude from USB host support.
+	         For example, if the first USB bus on the device is used to communicate
+	         with the modem or some other restricted hardware, add "/dev/bus/usb/001/"
+	         to this list.  If this is empty, no parts of the host USB bus will be excluded.
+	    -->
+	    <string-array name="config_usbHostBlacklist">
+	        <!--  /dev/bus/usb/001 is used for the LTE modem -->
+	        <item>/dev/bus/usb/001</item>
+	    </string-array>
 </resources>
