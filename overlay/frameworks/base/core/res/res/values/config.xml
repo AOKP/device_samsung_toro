@@ -46,13 +46,51 @@
         <item>"mobile_ims,11,0,2,-1,true"</item>
         <item>"mobile_cbs,12,0,2,60000,true"</item>
     </string-array>
+    
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>50</item>
+        <item>52</item>
+        <item>55</item>
+        <item>58</item>
+        <item>62</item>
+        <item>65</item>
+        <item>68</item>
+        <item>70</item>
+        <item>72</item>
+        <item>75</item>
+        <item>82</item>
+        <item>88</item>
+        <item>101</item>
+        <item>116</item>
+        <item>133</item>
+        <item>152</item>
+        <item>174</item>
+        <item>199</item>
+        <item>228</item>
+        <item>250</item>
+    </integer-array>
 
-    <!-- The first element is the package name and the second element is the class name
-         of the provisioning app -->
-    <string-array translatable="false" name="config_mobile_hotspot_provision_app">
-        <item>"com.samsung.spg"</item>
-        <item>"com.samsung.spg.NewSPGActivity"</item>
-    </string-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>6</item>
+        <item>9</item>
+        <item>14</item>
+        <item>20</item>
+        <item>30</item>
+        <item>46</item>
+        <item>68</item>
+        <item>103</item>
+        <item>154</item>
+        <item>231</item>
+        <item>346</item>
+        <item>519</item>
+        <item>778</item>
+        <item>1168</item>
+        <item>1752</item>
+        <item>2627</item>
+        <item>3941</item>
+        <item>5912</item>
+        <item>8867</item>
+    </integer-array>
 
     <!-- List of file paths for USB host busses to exclude from USB host support.
          For example, if the first USB bus on the device is used to communicate
