@@ -26,7 +26,12 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.vc_call_vol_steps=7
+	ro.config.vc_call_vol_steps=7 \
+	ro.cdma.home.operator.numeric=310004 \
+	ro.cdma.home.operator.alpha=Verizon \
+	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83 \
+	ro.cdma.data_retry_config=default_randomization=2000,0,0,120000,180000,540000,960000 \
+	ro.cdma.otaspnumschema=SELC,1,80,99
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/toro/device-vendor.mk)
