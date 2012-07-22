@@ -25,8 +25,6 @@ include device/samsung/tuna/BoardConfig.mk
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 30691799040
 
 # Use/add toro-specific variants
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/toro/releasetools/ota_from_target_files
-TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := device/samsung/toro/releasetools/img_from_target_files
 TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_toro
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/toro
 
