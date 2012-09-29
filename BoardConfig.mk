@@ -22,6 +22,9 @@ TARGET_BOARD_INFO_FILE ?= device/samsung/toro/board-info.txt
 # Use the part that is common between all tunas
 include device/samsung/tuna/BoardConfig.mk
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := toro
+
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 30691799040
 
 # Use/add toro-specific variants
