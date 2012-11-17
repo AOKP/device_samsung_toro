@@ -35,7 +35,7 @@
     <!-- the 6th element indicates boot-time dependency-met value. -->
     <string-array translatable="false" name="networkAttributes">
         <item>"wifi,1,1,2,-1,true"</item>
-        <item>"mobile,0,0,1,-1,"true"</item>
+        <item>"mobile,0,0,1,-1,true"</item>
         <item>"mobile_mms,2,0,2,60000,true"</item>
         <item>"mobile_supl,3,0,2,60000,true"</item>
         <item>"mobile_dun,4,0,5,60000,true"</item>
@@ -45,13 +45,6 @@
         <item>"mobile_fota,10,0,2,60000,true"</item>
         <item>"mobile_ims,11,0,2,-1,true"</item>
         <item>"mobile_cbs,12,0,2,60000,true"</item>
-    </string-array>
-
-    <!-- The first element is the package name and the second element is the class name
-         of the provisioning app -->
-    <string-array translatable="false" name="config_mobile_hotspot_provision_app">
-        <item>"com.samsung.spg"</item>
-        <item>"com.samsung.spg.NewSPGActivity"</item>
     </string-array>
 
     <!-- List of file paths for USB host busses to exclude from USB host support.
