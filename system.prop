@@ -16,6 +16,9 @@ persist.radio.imsallowmtsms=1
 # Default ecclist
 ro.ril.ecclist=112,911,#911,*911
 
+# Default to LTE/CDMA Network Mode
+ro.telephony.default_network=7
+
 # hardware info
 ro.device.cpu=1.2GHz dual-core TI OMAP 4460
 ro.device.gpu=PowerVR SGX SGX540
