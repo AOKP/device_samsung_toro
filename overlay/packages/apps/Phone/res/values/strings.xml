@@ -25,4 +25,7 @@
         <item>"7"</item>
         <item>"4"</item>
     </string-array>
+
+    <string name="cell_broadcast_sms">Emergency Alerts SMS</string>
+
 </resources>
