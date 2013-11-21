@@ -61,5 +61,5 @@
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
     <!-- Even though this is an LTE device, we have always shown "4G", so let's keep it that way -->
-    <bool name="config_show4GForLTE">true</bool>
+    <!-- <bool name="config_show4GForLTE">true</bool> -->
 </resources>
